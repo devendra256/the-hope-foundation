@@ -1,0 +1,45 @@
+.team-section {
+    margin-bottom: 50px;
+}
+
+.team-heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.team-heading {
+    text-align: center;
+    margin: 50px 0;
+    width: 90%;
+    background-color: grey;
+}
+
+.team-members {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-details {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.member-img {
+    flex: 80%;
+}
+.about-member {
+    flex: 20%;
+}
+
+.member-img > img {
+    width: 300px;
+}
+
+.member-title, .member-name {
+    font-size: 18px;
+    font-weight: bold;
+}

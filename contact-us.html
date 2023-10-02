@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Fontawesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5 -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/contact-us.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+
+<body>
+    <section class="nav-top">
+        <div class="nav-top-contact">
+            <div class="contact"><i class="fa-solid fa-phone" style="color: #2c2c2c;"></i>+91-9760880452</div>
+            <!-- TODO: Create new email address for the organisation -->
+            <!-- <div class="contact"><i class="fa-solid fa-envelope" style="color: #2c2c2c;"></i>johndoe@gmail.com</div> -->
+        </div>
+        <div class="nav-top-links">
+            <ul>
+                <li><a href="#">GRANTS</a></li>
+                <li><a href="#">AWARDS</a></li>
+                <li><a href="#">ANNUAL REPORTS</a></li>
+                <li><a href="#">STORIES OF CHANGE</a></li>
+                <li><a href="#">VIDEO GALLERY</a></li>
+            </ul>
+        </div>
+        <div class="nav-top-fb-link"><i class="fa-brands fa-facebook-f" style="color: #2c2c2c;"></i></div>
+    </section>
+    <hr>
+    <nav class="navbar">
+        <div class="logo"><img src="./images/hope-logo.png" alt="the hope foundation logo"></div>
+        <div class="nav-links">
+            <uL>
+                <li><a href="#">ABOUT HOPE</a></li>
+                <li><a href="#">OUR TEAM</a></li>
+                <!-- <li><a href="#">WHAT WE DO</a></li> -->
+                <!-- <li><a href="#">GET INVOLVED</a></li> -->
+                <li><a href="#">CONTACT US</a></li>
+                <li class="donate-btn"><a href="#">DONATE</a></li>
+            </uL>
+        </div>
+    </nav>
+    <hr>
+    </div>
+
+    <!-- Contact Us Form -->
+
+    <section class="contact-form">
+        <h1 class="form-heading">Fill The Form</h1>
+        <form action="#">
+            <div class="form-element-top">
+                <div class="form-element">
+                    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-element">
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                    <input type="email" name="email" id="email" placeholder="Your Email Address">
+                </div>
+                <div class="form-element">
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                    <input type="tel" name="contact" id="contact" placeholder="Your Contact Number">
+                </div>
+            </div>
+            <div>
+                <div class="form-element">
+                    <textarea name="message" id="message" cols="30" rows="5"
+                        placeholder="Your message here..."></textarea>
+                </div>
+            </div>
+            <div class="submit-btn"><button>Submit</button></div>
+        </form>
+    </section>
+
+    <section class="map">
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3114.912277307515!2d78.05056152197642!3d27.598943365889795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39749b33d238109f%3A0xafaf15decc6b0e92!2sNagar%20Palika%20Parishad!5e0!3m2!1sen!2sin!4v1696230961849!5m2!1sen!2sin"
+                width="1600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <section class="addresses">
+        <div class="office-address address">
+            <h3>Address</h3>
+            <address>Nagar palika shops near Talaab choraha</address>
+        </div>
+        <div class="branch-address address">
+            <h3>Branch Office</h3>
+            <address>Iglas Adda Near Bansal Mobile Shop</address>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Home </a> | </li>
+                <li><a href="#">About Hope </a> | </li>
+                <li><a href="#">What we do </a> | </li>
+                <li><a href="#">Get Involved </a> | </li>
+                <li><a href="#">Event & Press </a> | </li>
+                <li><a href="#">Social Responsibility </a> | </li>
+                <li><a href="#">Contact Us </a></li>
+            </ul>
+
+        </div>
+        <div>
+            <p>Made with 🤍 in Hathras</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

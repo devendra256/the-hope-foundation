@@ -1,0 +1,58 @@
+/* Navbar Top */
+
+.nav-top {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-top-contact {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-top-links>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-top-links>ul>li>a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--blue);
+}
+
+/* Navbar */
+.navbar {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links>ul>li>a {
+    color: black;
+}
+
+.donate-btn>a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--orange);
+}
+
+.donate-btn>a:hover {
+    outline: 1px solid var(--orange);
+    color: var(--orange);
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+/* Heading Font  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --heading-font: 'Playfair Display', serif;
+    --orange: #FA691A;
+    --blue: #25375C;
+    --dark: rgb(44, 44, 44);
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
