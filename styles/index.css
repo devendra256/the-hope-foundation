@@ -8,10 +8,6 @@
 .image-slider-container > img {
     width: 70%;
 }
-/* .image-slider {
-    width: 70%;
-    box-shadow: 2px 0px 16px 3px rgba(0, 0, 0, 0.75);
-} */
 
 /* Hero Section */
 
@@ -70,44 +66,4 @@
     color: var(--orange);
     background-color: transparent;
     outline: 1px solid var(--orange);
-}
-
-/* Involved Section */
-
-.involved-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.involve-head {
-    text-align: center;
-    margin: 50px 0;
-}
-
-.involve-content {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    width: 80%;
-}
-
-.involve-card {
-    box-shadow: 2px 0px 16px 3px rgba(0, 0, 0, 0.75);
-    padding: 30px 50px;
-}
-
-.involve-card > div > img {
-    width: 100%;
-}
-
-.involve-card {
-    width: 80rem;
-}
-
-.read-more {
-    font-weight: bold;
-    color: var(--orange);
 }

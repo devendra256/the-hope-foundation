@@ -5,49 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hope Foundation</title>
-    
+
     <!-- Fontawesome CDN -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-        <!-- Bootstrap 5 -->
-    
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="./styles/navbar.css">
-        <link rel="stylesheet" href="./styles/base.css">
-        <link rel="stylesheet" href="./styles/index.css">
-        <link rel="stylesheet" href="./styles/footer.css">
+    <!-- Bootstrap 5 CDN -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
     <div class="body">
-        <section class="nav-top">
-            <div class="nav-top-contact">
-                <div class="contact"><i class="fa-solid fa-phone" style="color: #2c2c2c;"></i>+91-9760880452</div>
-                <!-- TODO: Create new email address for the organisation -->
-                <!-- <div class="contact"><i class="fa-solid fa-envelope" style="color: #2c2c2c;"></i>johndoe@gmail.com</div> -->
-            </div>
-            <div class="nav-top-links">
-                <ul>
-                    <li><a href="#">GRANTS</a></li>
-                    <li><a href="#">AWARDS</a></li>
-                    <li><a href="#">ANNUAL REPORTS</a></li>
-                    <li><a href="#">STORIES OF CHANGE</a></li>
-                    <li><a href="#">VIDEO GALLERY</a></li>
-                </ul>
-            </div>
-            <div class="nav-top-fb-link"><i class="fa-brands fa-facebook-f" style="color: #2c2c2c;"></i></div>
-        </section>
-        <hr>
         <nav class="navbar">
-            <div class="logo"><img src="./images/hope-logo.png" alt="the hope foundation logo"></div>
+            <div class="logo">
+                <a href="./index.html">
+                    <p class="logo-text">The Hope</p>
+                    <p class="logo-text">Foundation</p>
+                </a>
+            </div>
             <div class="nav-links">
                 <uL>
-                    <li><a href="#">ABOUT HOPE</a></li>
+                    <li>
+                        <div class="contact"><i class="fa-solid fa-phone" style="color: #2c2c2c;"></i>+91-9760880452</div>
+                    </li>
+                    <li class=""><a href="https://www.facebook.com/ThehopeFoundationHathras/" target="_blank">
+                            <i class="fa-brands fa-facebook-f" style="color: #2c2c2c;"></i>
+                        </a></li>
                     <li><a href="./our-team.html">OUR TEAM</a></li>
                     <li><a href="./contact-us.html">CONTACT US</a></li>
                     <li class="donate-btn"><a href="#">DONATE</a></li>
@@ -55,35 +47,9 @@
             </div>
         </nav>
     </div>
-
-    <!-- Image Slider -->
+    <hr>
     <div class="image-slider-container">
         <img src="./images/slider/home-page-banner.jpg" alt="home page banner">
-        <!-- <div class="image-slider">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/slider/1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/slider/1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/slider/1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div> -->
     </div>
 
     <main>
@@ -91,43 +57,102 @@
             <div class="hero-left">
                 <h2>ABOUT HOPE FOUNDATION</h2>
                 <p>
-                    We invite you to join us on this compassionate journey. Together, we can provide these children with not just the basic
-                    necessities, but also the love, encouragement, and hope they need to overcome challenges and reach for their dreams.
-                    Your support can transform lives and inspire a future filled with promise and potential for every child in need.
+                    We invite you to join us on this compassionate journey. Together, we can provide these children with
+                    not just the basic
+                    necessities, but also the love, encouragement, and hope they need to overcome challenges and reach
+                    for their dreams.
+                    Your support can transform lives and inspire a future filled with promise and potential for every
+                    child in need.
                 </p>
                 <p>
-                    Children living on the streets endure extreme hunger and face severe physical and sexual abuse. Those who manage to
-                survive are left to fend for themselves, with no assurance of a secure future. These vulnerable children are forced into
-                labor as early as the age of five, simply to earn money for basic sustenance, leaving them unable to attend school. Hope
-                strives to liberate them from lives filled with pain, abuse, poverty, and despair, offering a chance for a brighter,
-                safer future.
+                    Children living on the streets endure extreme hunger and face severe physical and sexual abuse.
+                    Those who manage to
+                    survive are left to fend for themselves, with no assurance of a secure future. These vulnerable
+                    children are forced into
+                    labor as early as the age of five, simply to earn money for basic sustenance, leaving them unable to
+                    attend school. Hope
+                    strives to liberate them from lives filled with pain, abuse, poverty, and despair, offering a chance
+                    for a brighter,
+                    safer future.
                 </p>
                 <p>
-                    Our focus extends to orphans, socially and financially disadvantaged youngsters, as well as those who are physically and
-                    mentally disabled. We believe that every child deserves love, dignity, and a chance to thrive. Through our dedicated
-                    team and passionate volunteers, we are working tirelessly to create a safe haven where these children can find solace,
+                    Our focus extends to orphans, socially and financially disadvantaged youngsters, as well as those
+                    who are physically and
+                    mentally disabled. We believe that every child deserves love, dignity, and a chance to thrive.
+                    Through our dedicated
+                    team and passionate volunteers, we are working tirelessly to create a safe haven where these
+                    children can find solace,
                     support, and the opportunity to build a brighter future.
                 </p>
             </div>
             <div class="hero-right">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uf0xykSjDpg?si=bhBcA3v36IxbGsSM"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tj-niLLzj6g?si=aXdZCpLN0ikEZwSn"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
         </section>
+
+        <section style="text-align: center;" class="involved-section">
+            <hr>
+            <h1>Our Work</h1>
+            <div class="image-slider-container" style="height: 500px;">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img width="600px" src="./images/slider/1.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/2.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/3.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/4.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/5.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/6.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/7.jpg" class="d-block w-200" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="600px" src="./images/slider/8.jpg" class="d-block w-200" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <section class="info-container">
             <div class="content-left">
                 <h3 class="info-heading">WHAT WE DO</h3>
                 <p>
-                    Our NGO is deeply committed to the holistic well-being of vulnerable children, addressing their fundamental needs while
-                    ensuring their safety and protection. We provide secure shelters, emotional support through counseling and therapy, and
-                    child-friendly spaces that encourage creativity and socialization. 
+                    Our NGO is deeply committed to the holistic well-being of vulnerable children, addressing their
+                    fundamental needs while
+                    ensuring their safety and protection. We provide secure shelters, emotional support through
+                    counseling and therapy, and
+                    child-friendly spaces that encourage creativity and socialization.
                 </p>
                 <p>
-                    To prevent abuse, we conduct awareness programs, implement strict protocols, and offer legal support when needed. Moreover, we focus on skill development and education,empowering children to lead independent lives and reducing their susceptibility to exploitation.
+                    To prevent abuse, we conduct awareness programs, implement strict protocols, and offer legal support
+                    when needed. Moreover, we focus on skill development and education,empowering children to lead
+                    independent lives and reducing their susceptibility to exploitation.
                 </p>
-                <div><a href="#" class="learn-more">Learn More</a></div>
             </div>
             <div class="content-middle">
                 <div>
@@ -136,9 +161,12 @@
                         <h3 class="info-heading">PROTECTION</h3>
                     </div>
                     <p>
-                        Through our Life Skills Empowerment Program, we not only prepare children for the challenges of adulthood but also
-                        instill in them the confidence and capabilities to navigate life’s complexities. By fostering these skills, we empower
-                        them to become responsible, empathetic, and successful individuals, ready to contribute positively to their communities
+                        Through our Life Skills Empowerment Program, we not only prepare children for the challenges of
+                        adulthood but also
+                        instill in them the confidence and capabilities to navigate life’s complexities. By fostering
+                        these skills, we empower
+                        them to become responsible, empathetic, and successful individuals, ready to contribute
+                        positively to their communities
                         and society at large.
                     </p>
                 </div>
@@ -148,8 +176,10 @@
                         <h3 class="info-heading">EDUCATION AND SKILL DEVELOPMENT</h3>
                     </div>
                     <p>
-                        Education is the key to breaking the cycle of poverty. We facilitate access to quality education, including school
-                        supplies, uniforms, and tutoring. Moreover, we offer skill development programs, empowering children with the tools they
+                        Education is the key to breaking the cycle of poverty. We facilitate access to quality
+                        education, including school
+                        supplies, uniforms, and tutoring. Moreover, we offer skill development programs, empowering
+                        children with the tools they
                         need to build a better future.
                     </p>
                 </div>
@@ -161,8 +191,10 @@
                         <h3 class="info-heading">LIFE SKILL PROGRAMME</h3>
                     </div>
                     <p>
-                        Our NGO is dedicated to equipping children with essential life skills that are instrumental for their personal and
-                        professional growth. Through our Life Skills Empowerment Program, we offer a diverse range of practical skills aimed at
+                        Our NGO is dedicated to equipping children with essential life skills that are instrumental for
+                        their personal and
+                        professional growth. Through our Life Skills Empowerment Program, we offer a diverse range of
+                        practical skills aimed at
                         enhancing their self-confidence, decision-making abilities, and overall resilience.
                     </p>
                 </div>
@@ -172,50 +204,15 @@
                         <h3 class="info-heading">EMERGENCY RELIEF</h3>
                     </div>
                     <p>
-                        Every child deserves proper healthcare. We organize medical camps, offer vaccinations, and provide healthcare services
-                        to address immediate health concerns, fostering a strong foundation for their overall well-being.
+                        Every child deserves proper healthcare. We organize medical camps, offer vaccinations, and
+                        provide healthcare services
+                        to address immediate health concerns, fostering a strong foundation for their overall
+                        well-being.
                     </p>
                 </div>
             </div>
         </section>
     </main>
-
-    <section class="involved-section">
-        <div>
-            <h1 class="involve-head">Get Involved</h1>
-        </div>
-        <div class="involve-content">
-            <div class="involve-card volunteer-card">
-                <div><img src="./images/involve/what-we-do.png" alt="what we do"></div>
-                <div class="involve-card-head">
-                    <h2>Intership & Volunteer Programme</h2>
-                    <hr>
-                </div>
-                <div class="involve-card-content">
-                    <p>Explore real-world impact through our internships. Join our volunteer program, be the change.</p>
-                    <div>
-                        <a href="#" class="read-more">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="involve-card sponser-card">
-                <div><img src="./images/involve/what-we-do.png" alt="what we do"></div>
-                <div class="involve-card-head">
-                    <h2>You, a sponser</h2>
-                    <hr>
-                </div>
-                <div class="involve-card-content">
-                    <p>
-                        As a sponsor, your contribution will directly empower vulnerable children,
-                        providing them with essential resources, education, and a chance for a brighter future.
-                    </p>
-                    <div>
-                        <a href="#" class="read-more">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer>
         <div class="footer-links">

@@ -3,6 +3,9 @@
 /* Heading Font  */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
+/* Logo Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
