@@ -1,68 +1,49 @@
-.contact-form {
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.form-heading {
+.contact-section h1 {
     text-align: center;
-}
-
-.contact-form > form {
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-element-top {
-    display: flex;
-    gap: 8rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-element {
-    background-color: rgb(37, 55, 92);
-}
-.form-element > input {
-    padding: 0 30px 0;
-    border: 1px solid rgb(37, 55, 92);
-    width: 24rem;
-}
-.form-element > i {
-    margin: 0 20px;
-}
-
-.form-element > textarea {
-    width: 100%;
-}
-.submit-btn > button {
-    padding: 10px 20px;
-    color: white;
-    background-color: rgb(37, 55, 92);
-}
-
-.map {
-    display: flex;
-    justify-content: center;
-}
-.map > div {    
-    border: 1px solid rgb(37, 55, 92);
-}
-
-.addresses {
     margin: 50px 0;
+    color: var(--orange);
+    background-color: var(--blue);
+}
+
+.contact-container {
+    margin-bottom: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F9F8F8;
+}
+
+.contact-address-map {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .address {
-    padding: 50px 258px;
-    color: rgb(37, 55, 92);
-    border: 1px solid rgb(37, 55, 92);
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    color: var(--orange);
+    background-color: var(--blue);
+}
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 640px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    
+    .contact-form > iframe {
+        width: 100%;
+    }
+    
+    .contact-address-map {
+        width: 100%;
+    }
+    .address {
+        margin: 10px 0;
+    }
 }

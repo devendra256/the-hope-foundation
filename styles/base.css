@@ -25,3 +25,8 @@ ul>li {
 a {
     text-decoration: none;
 }
+
+*::selection {
+    background-color: var(--orange);
+    color: white;
+}

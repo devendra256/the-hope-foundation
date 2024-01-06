@@ -10,8 +10,9 @@
 .team-heading {
     text-align: center;
     margin: 50px 0;
-    width: 90%;
-    background-color: grey;
+    width: 100%;
+    color: var(--orange);
+    background-color: var(--blue);
 }
 
 .team-members {
@@ -22,24 +23,50 @@
 }
 
 .member-details {
-    height: 30rem;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
 }
 
 .member-img {
     flex: 80%;
 }
+
+.member-img>img {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+.member-img>img {
+    width: 300px;
+    box-shadow: 0px 0px 20px;
+}
+
 .about-member {
+    margin-top: 1rem;
+    text-align: center;
     flex: 20%;
 }
 
-.member-img > img {
-    width: 300px;
+
+.member-title,
+.member-name {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.member-title, .member-name {
-    font-size: 18px;
-    font-weight: bold;
+
+@media only screen and (max-width: 640px) {
+    .team-members {
+        display: block;
+    }
+
+    .member-details {
+        border: none;
+        display: grid;
+        place-items: center;
+    }
+
+    .member-img>img {
+        width: 200px;
+    }
 }

@@ -10,7 +10,8 @@ nav {
 }
 
 .logo-text {
-    font-family: 'Teko', sans-serif;    color: var(--orange);
+    font-family: 'Teko', sans-serif;
+    color: var(--orange);
 }
 
 .logo {
@@ -53,19 +54,23 @@ nav {
     nav {
         width: 100%;
     }
-    .nav-links > ul > li { 
+
+    .nav-links>ul>li {
         font-size: 0.6rem;
-     }
+    }
+
     .logo {
         line-height: 0;
         margin-bottom: 20px;
         width: 100%;
         padding: 30px 10px;
     }
+
     .logo-text {
         display: inline;
     }
-    .nav-links > ul {
+
+    .nav-links>ul {
         font-size: 10px;
     }
 }
